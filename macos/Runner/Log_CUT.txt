@@ -1,0 +1,98 @@
+2026-02-19 10:33:11      VerifyAccessWithDate 0
+2026-02-19 10:33:11      getLicenseDate
+2026-02-19 10:33:11      GetNetworkTime 0
+2026-02-19 10:33:11      GetNetworkTime 1
+2026-02-19 10:33:14      GetNetworkTime 2
+2026-02-19 10:33:14      GetNetworkTime 3
+2026-02-19 10:33:14      GetNetworkTime 4
+2026-02-19 10:33:14      GetNetworkTime:3980466197195
+2026-02-19 10:33:14      Active Date is 1/26/2026 12:00:00 AM
+2026-02-19 10:33:14      Running machine date(UTC) is 2/19/2026 10:33:17 AM
+2026-02-19 10:33:14      this is 64bit OS....
+2026-02-19 10:33:14      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\msizap_64x.exe
+2026-02-19 10:33:15      ExtractResourceTextFilec:\temp\7597ed8d2925998a62a3281e938eaf02\ms_temp20260219103311_x.bat
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\ms_temp20260219103311_x.exe
+2026-02-19 10:33:15      ExtractResourceTextFilec:\temp\7597ed8d2925998a62a3281e938eaf02\CmnUnins.ini
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\iVP_Clp_64x.exe
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\iAC_Clp_64x.exe
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\iES_Clp_64x.exe
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\OfcPIPC_64x.dll
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\tmlwfins_64x.exe
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\iDLP_Clp.exe
+2026-02-19 10:33:15      ExtractResourceEXEFilec:\temp\7597ed8d2925998a62a3281e938eaf02\TmFixDuplicateKey.exe
+2026-02-19 10:33:17      Remove duplicate key!
+2026-02-19 10:33:20      this is 64bit OS....
+2026-02-19 10:33:20      Running common uninstall tool for agent.....
+2026-02-19 10:33:25        ---Finished Step1, Running Step2.....
+2026-02-19 10:33:35        ---Finished Step2, Running Step3.....
+2026-02-19 10:36:01        ---Finished Step3, Running Step4.....
+2026-02-19 10:39:16        ---Finished Step4, Running Step5.....
+2026-02-19 10:39:16        ---Finished Step5, Running Step6.....
+2026-02-19 10:39:16        ---Finished Step6, Running Step7.....
+2026-02-19 10:39:16        ---Finished Step7, Running Step8.....
+2026-02-19 10:39:36        ---Finished Step8, Running Step9.....
+2026-02-19 10:40:43        ---Finished Step9, Running Step10.....
+2026-02-19 10:40:43        ---Finished Step10, Running Step11.....
+2026-02-19 10:40:43        ---Finished Step11.
+2026-02-19 10:40:43      Finished running common uninstall tool for agent.
+2026-02-19 10:40:48      Delete 64bit view REG key Operation Succeeded.
+2026-02-19 10:40:48      HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\Folders, C:\Program Files (x86)\Trend Micro\Security Agent\\
+2026-02-19 10:40:49      Delete 64bit view REG key Operation Failed.
+2026-02-19 10:40:49      HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\Folders, C:\Program Files (x86)\Trend Micro\OfficeScan Client\\
+2026-02-19 10:40:51      Finished iVP cleanup....
+2026-02-19 10:41:09      Finished TMEAC cleanup....
+2026-02-19 10:41:14      Finished iAC cleanup....
+2026-02-19 10:41:19      Finished iES cleanup....
+2026-02-19 10:41:19      Cleanup iES_Clp_64x.exe, met exception.
+2026-02-19 10:41:22      Cleanup iES_Clp_64x.exe, met exception.
+2026-02-19 10:41:25      Cleanup iES_Clp_64x.exe, met exception.
+2026-02-19 10:41:28      Cleanup iES_Clp_64x.exe, met exception.
+2026-02-19 10:41:31      Cleanup iES_Clp_64x.exe, met exception.
+2026-02-19 10:41:37      Delete AppPath folder, met exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\Trend Micro\Security Agent\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CUT.Program.RemoveiServiceFolders(String iXXpath, String AppPath)
+2026-02-19 10:41:40      Finished iDLP double cleanup....
+2026-02-19 10:41:43      Delete SCP folder, met exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Program Files (x86)\Trend Micro\SupportConnector\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at CUT.Program.DeleteXBCSCPFolder(String AppPath)
+2026-02-19 10:41:44      Deleted Schedule Task: Trend Micro Apex One Security Services Support Connector
+2026-02-19 10:41:44      DelSpecificRegKeys foreach met exception: System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at CUT.Program.DelSpecificRegKeys()
+2026-02-19 10:41:45      Delete plugin reg key. Key Under: {6138A34F-DCA4-48D0-95CC-51E1D8F30B58}, under HKEY_CLASSES_ROOT\CLSID
+2026-02-19 10:41:45      Delete 64bit view REG key Operation Succeeded.
+2026-02-19 10:41:45      HKEY_CLASSES_ROOT\CLSID\{6138A34F-DCA4-48D0-95CC-51E1D8F30B58}
+2026-02-19 10:41:45      Delete plugin reg key. Key Under: {69FD7CE3-4604-4fe6-967C-49B9735CEE70}, under HKEY_CLASSES_ROOT\CLSID
+2026-02-19 10:41:45      Delete 64bit view REG key Operation Succeeded.
+2026-02-19 10:41:45      HKEY_CLASSES_ROOT\CLSID\{69FD7CE3-4604-4fe6-967C-49B9735CEE70}
+2026-02-19 10:41:46      DelSpecificRegKeys met exception: System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at CUT.Program.DelSpecificRegKeys()
+2026-02-19 10:41:46      Delete plugin reg key. Key Under: {959A5673-7971-48e6-AF54-58F745AC4ABC}, under SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects
+2026-02-19 10:41:46      Delete 64bit view REG key Operation Succeeded.
+2026-02-19 10:41:46      HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{959A5673-7971-48e6-AF54-58F745AC4ABC}
+2026-02-19 10:41:46      DelSpecificRegKeys met exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at CUT.Program.DelSpecificRegKeys()
+2026-02-19 10:41:46      DelSpecificRegKeys met exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at CUT.Program.DelSpecificRegKeys()
+2026-02-19 10:41:46      DelSpecificRegKeys met exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at CUT.Program.DelSpecificRegKeys()
+2026-02-19 10:41:46      agent main components have been removed completely.
+2026-02-19 10:41:50      Finished running MSI clean bat....
+2026-02-19 10:41:56      Agent uninstall key remains, delete it.
+2026-02-19 10:41:56      Finished....
+2026-02-19 10:41:56      You need to reboot PC once finally!
+2026-02-19 10:41:56      StopTMUMH
+2026-02-19 10:41:57      net stop tmumh
+2026-02-19 10:41:57      
+2026-02-19 10:41:57      ren "C:\WINDOWS\system32\drivers\TMUMH.sys" "TMUMH_bak.sys"
+2026-02-19 10:41:57      
+2026-02-19 10:41:57      removeGuidsForAgent met exception: System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at CUT.Program.removeGuidsForAgent()
+2026-02-19 10:42:07      SCUT Finished!
